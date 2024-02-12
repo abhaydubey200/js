@@ -1,8 +1,4 @@
-function name(name , callback){
-    console.log('hi'+''+ name);
-    callback();
+const add=(a,b)=>{
+    return a+b;
 }
-function callme(){
-    console.log('hi this is callback function');
-}
-name ('abhay', callme);
+console.log(add(3,5));
